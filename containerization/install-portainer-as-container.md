@@ -4,7 +4,7 @@
 
 ## Prerequisite
 
-[Docker and Docker Compose](https://github.com/greums/cheat-sheets/master/containerization/install-and-configure-docker.md) must be up and running before deploying Portainer. 
+[Docker and Docker Compose](https://github.com/greums/cheat-sheets/blob/master/containerization/install-and-configure-docker.md) must be up and running before deploying Portainer. 
 
 ## Run Portainer container
 
@@ -25,7 +25,7 @@ Optionally, you can also publish port `9000` to expose an insecure HTTP connecti
 
 ## Auto-update running containers
 
-If you want your container to be always up-to-date, you can deploy Portainer alongside with [Watchtower](https://containrrr.dev/watchtower/).
+If you want your containers to be always up-to-date, you can deploy Portainer alongside with [Watchtower](https://containrrr.dev/watchtower/).
 
 Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially.
 
