@@ -15,10 +15,49 @@ docker run -d \
     --name portainer \
     --restart=always \
     --volume /var/run/docker.sock:/var/run/docker.sock \
-    --volume $HOME/docker/portainer_data:/data \
+    --volume ${HOME}/docker/portainer_data:/data \
     portainer/portainer-ce:latest
 ```
 
 Once installation is complete, you can log into your Portainer Server instance by opening a web browser and going to https://localhost:9443. You will be presented with the initial setup page for Portainer Server.
 
 Optionally, you can also publish port `9000` to expose an insecure HTTP connection.
+
+## Auto-update running containers
+
+If you want your container to be always up-to-date, you can deploy Portainer alongside with [Watchtower](https://containrrr.dev/watchtower/).
+
+Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially.
+
+Create following yaml contant in a `docker-compose.yaml` file:
+```yaml
+version: "3.3"
+
+services:
+  portainer:
+    container_name: portainer
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+      - "9443:9443"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${HOME}/docker/portainer_data:/data
+    image: portainer/portainer-ce
+
+  watchtower:
+    container_name: watchtower
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    image: containrrr/watchtower
+```
+
+Then deploy and forget services:
+```bash
+docker-compose up --detach
+
+[+] Running 2/2
+ ⠿ Container watchtower Started
+ ⠿ Container portainer  Started
+```
