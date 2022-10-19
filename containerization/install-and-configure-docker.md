@@ -9,6 +9,7 @@ curl -fsSL https://get.docker.com | sudo sh
 sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
+docker version        
 ```
 
 ## Configure Docker to start on boot
@@ -16,6 +17,15 @@ newgrp docker
 ```bash
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
+```
+
+## Install Compose Standalone
+
+Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services.
+
+```bash
+sudo curl -SL https://github.com/docker/compose/releases/download/v2.11.2/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+docker-compose version                                                                                                              
 ```
 
 ## Configure remote access
