@@ -11,7 +11,7 @@ sudo apt-get install zsh
 chsh -s $(which zsh)
 curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | sh
 # install zsh-autosuggestions plugin, to be activated in .zshrc plugins list
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
 ## Install Nerd Font
