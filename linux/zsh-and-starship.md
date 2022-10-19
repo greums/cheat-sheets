@@ -8,6 +8,7 @@ Zsh is an extended Bourne shell with many improvements, including some features 
 
 ```bash
 sudo apt-get install zsh
+chsh -s $(which zsh)
 curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | sh
 # install zsh-autosuggestions plugin, to be activated in .zshrc plugins list
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
