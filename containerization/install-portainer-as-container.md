@@ -29,7 +29,7 @@ If you want your container to be always up-to-date, you can deploy Portainer alo
 
 Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially.
 
-Create following yaml contant in a `docker-compose.yaml` file:
+Create a new `docker-compose.yaml` with following services definition:
 ```yaml
 version: "3.3"
 
