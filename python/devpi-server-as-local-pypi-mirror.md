@@ -1,6 +1,7 @@
 [DevPi Server](https://pypi.org/project/devpi-server/) is a local self-updating PyPi caching mirror which works with pip and easy_install. After files are first requested can work off-line and will try to re-check with pypi every 30 minutes by default.
 
 ![](https://images.unsplash.com/photo-1630086444439-97f3e422cc13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1511&q=80)
+📷 by [Rishabh Dharmani](https://unsplash.com/@rishabhdharmani)
 
 ## Install DevPi Server globally
 

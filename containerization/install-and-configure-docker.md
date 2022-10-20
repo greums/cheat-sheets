@@ -1,6 +1,7 @@
 [Docker](https://docs.docker.com/) is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 
 ![](https://images.unsplash.com/photo-1504383633899-a17806f7e9ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1506&q=80)
+📷 by [Victoire Joncheray](https://unsplash.com/@victoire_jonch)
 
 ## Install Docker Engine
 
