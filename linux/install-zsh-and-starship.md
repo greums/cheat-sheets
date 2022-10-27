@@ -1,3 +1,5 @@
+# Install Zsh and Starship
+
 Zsh is an extended Bourne shell with many improvements, including some features of Bash, ksh, and tcsh. It can be further improved by [Oh My Zsh](https://ohmyz.sh/), the most popular Zsh framework, adding tons of functions and plugins.
 
 [Starship](https://starship.rs/) is a minimal, blazing-fast, and infinitely customizable prompt for any shell, making Zsh look freaking cool!
