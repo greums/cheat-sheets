@@ -22,7 +22,7 @@ All done! ✨ 🍰 ✨
 11 files left unchanged.
 ```
 
-Although Black enforces PEP 8 rules, we can tweak some options via a `~/.config/black`:
+Although Black enforces PEP 8 rules, we can tweak some options via `~/.config/black` file:
 ```toml
 [tool.black]
 line-length = 119
