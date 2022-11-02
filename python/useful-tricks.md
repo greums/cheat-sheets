@@ -5,6 +5,29 @@
 
 ## Linting and configuration
 
+### No brainer code formatting
+
+[Black](https://github.com/psf/black) is a Python code formatter. It is PEP 8 compliant and opinionated, thus no configuration is required to run it.
+
+```bash
+sudo -H pip install install black
+```
+
+Run Black on a Python project directory:
+```bash
+cd my-awesome-project
+black .
+
+All done! ✨ 🍰 ✨
+11 files left unchanged.
+```
+
+Although Black enforces PEP 8 rules, we can tweak some options via a `~/.config/black`:
+```toml
+[tool.black]
+line-length = 119
+```
+
 ### Separate development and production requirements
 
 ```bash
