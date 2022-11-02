@@ -53,7 +53,7 @@ staff = [
 list({person["id"]: person for person in staff}.values())
 ```
 
-### cSort list of dictionaries by attribute values
+### Sort list of dictionaries by attribute values
 
 ```python
 sorted(staff, key=lambda person: person["name"])
