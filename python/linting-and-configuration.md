@@ -35,7 +35,8 @@ touch requirements/dev.txt
 ```
 ```bash
 nano requirements/prod.txt
-
+```
+```bash
 click
 guessit
 logzero
@@ -43,7 +44,8 @@ requests
 ```
 ```bash
 nano requirements/dev.txt
-
+```
+```bash
 -r prod.txt
 black
 pylint
