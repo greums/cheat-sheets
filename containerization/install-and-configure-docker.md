@@ -28,6 +28,7 @@ Compose is a tool for defining and running multi-container Docker applications. 
 
 ```bash
 sudo curl -SL "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 docker-compose version                                                                                                              
 ```
 
