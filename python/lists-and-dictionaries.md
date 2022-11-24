@@ -4,7 +4,6 @@
 📷 by [Ed Robertson](https://unsplash.com/@eddrobertson)
 
 ## Merge dictionaries
-
 ```python
 d1 = {"a": 1, "b": 2}
 d2 = {"c": 3, "d": 4}
@@ -20,7 +19,6 @@ d1 | d2
 ```
 
 ## Remove duplicates from a list of dictionaries
-
 ```python
 staff = [
     {"id": "00121", "name": "Jim"},
@@ -37,7 +35,19 @@ list({person["id"]: person for person in staff}.values())
 ```
 
 ## Sort list of dictionaries by attribute values
-
 ```python
 sorted(staff, key=lambda person: person["name"])
+```
+
+## Split list into chunks
+```python
+my_list = list(range(1, 10))
+chunks_size = 3
+print(
+    [my_list[i:i + chunks_size]
+    for i in range(0, len(my_list), chunks_size)]
+)
+```
+```python
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 ```
