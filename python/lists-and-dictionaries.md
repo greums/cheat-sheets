@@ -33,6 +33,14 @@ staff = [
 
 list({person["id"]: person for person in staff}.values())
 ```
+## Sort dictionary by keys
+```python
+d = {2:3, 1:89, 4:5, 3:0}
+print({k:v for k,v in sorted(d.items())})
+```
+```python
+{1: 89, 2: 3, 3: 0, 4: 5}
+```
 
 ## Sort list of dictionaries by attribute values
 ```python
