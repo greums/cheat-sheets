@@ -33,6 +33,12 @@ staff = [
 
 list({person["id"]: person for person in staff}.values())
 ```
+
+## Sort list of dictionaries by attribute values
+```python
+sorted(staff, key=lambda person: person["name"])
+```
+
 ## Sort dictionary by keys
 ```python
 d = {2:3, 1:89, 4:5, 3:0}
@@ -42,9 +48,24 @@ print({k:v for k,v in sorted(d.items())})
 {1: 89, 2: 3, 3: 0, 4: 5}
 ```
 
-## Sort list of dictionaries by attribute values
+## Sort dictionary by values
 ```python
-sorted(staff, key=lambda person: person["name"])
+d = {0: 500, 1: 225, 2: 312, 3: 4015, 4: 17}
+print({k: d[k] for k in sorted(d, key=d.get)})
+```
+```python
+{4: 17, 1: 225, 2: 312, 0: 500, 3: 4015}
+```
+
+## Get key of min / max value from dictionary
+```python
+d = {0: 500, 1: 225, 2: 312, 3: 4015, 4: 17}
+print(min(d, key=d.get))
+print(max(d, key=d.get))
+```
+```python
+4
+3
 ```
 
 ## Split list into chunks
