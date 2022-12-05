@@ -5,6 +5,9 @@
 * Linux
     * [Install Zsh and Starship](linux/install-zsh-and-starship)
 
+* Algorithmic
+    * [Distance heuristics](algorithmic/distance-heuristics)
+
 * Python
     * [DevPi Server as local PyPi mirror](python/devpi-server-as-local-pypi-mirror)
     * [Linting and configuration](python/linting-and-configuration)
