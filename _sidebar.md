@@ -10,5 +10,6 @@
 
 * Python
     * [DevPi Server as local PyPi mirror](python/devpi-server-as-local-pypi-mirror)
+    * [Files and directories](python/files-and-directories.md)
     * [Linting and configuration](python/linting-and-configuration)
     * [Lists and dictionaries](python/lists-and-dictionaries)
