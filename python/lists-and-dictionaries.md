@@ -1,6 +1,7 @@
 # Lists and dictionaries
 
 ![](https://images.unsplash.com/photo-1550399105-c4db5fb85c18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80)
+
 📷 by [Ed Robertson](https://unsplash.com/@eddrobertson)
 
 ## Merge dictionaries

@@ -5,6 +5,7 @@ Zsh is an extended Bourne shell with many improvements, including some features 
 [Starship](https://starship.rs/) is a minimal, blazing-fast, and infinitely customizable prompt for any shell, making Zsh look freaking cool!
 
 ![](https://images.unsplash.com/photo-1582513166998-56ed1ea02d13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80)
+
 📷 by [Brian McGowan](https://unsplash.com/@sushioutlaw)
 
 ## Install zsh and oh-my-zsh

@@ -1,6 +1,7 @@
 # Linting and configuration
 
 ![](https://images.unsplash.com/photo-1471086569966-db3eebc25a59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
+
 📷 by [Sarah Dorweiler](https://unsplash.com/@sarahdorweiler)
 
 ## No brainer code formatting
