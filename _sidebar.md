@@ -13,3 +13,4 @@
     * [Files and directories](python/files-and-directories.md)
     * [Linting and configuration](python/linting-and-configuration)
     * [Lists and dictionaries](python/lists-and-dictionaries)
+    * [Optical character recognition](python/optical-character-recognition)
