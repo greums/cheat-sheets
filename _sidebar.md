@@ -3,6 +3,7 @@
     * [Install Portainer as container](containerization/install-portainer-as-container)
 
 * Linux
+    * [Fix a corrupt zsh history file](linux/fix-a-corrupt-zsh-history-file)
     * [Install Zsh and Starship](linux/install-zsh-and-starship)
 
 * Algorithmic
