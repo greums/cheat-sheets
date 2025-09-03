@@ -17,5 +17,5 @@
     * [Optical character recognition](python/optical-character-recognition)
     * [UV - The Python tool that revolutionizes dependency management](python/uv-the-python-tool-that-revolutionizes-dependency-management)
 
-* Versioning
-    * [Git worktree](versioning/git-worktree)
+<!-- * Versioning
+    * [Git worktree](versioning/git-worktree) -->
