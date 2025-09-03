@@ -15,3 +15,7 @@
     * [Linting and configuration](python/linting-and-configuration)
     * [Lists and dictionaries](python/lists-and-dictionaries)
     * [Optical character recognition](python/optical-character-recognition)
+    * [UV - The Python tool that revolutionizes dependency management](python/uv/uv-the-python-tool-that-revolutionizes-dependency-management)
+
+* Versioning
+    * [Git worktree](versioning/git-worktree)
