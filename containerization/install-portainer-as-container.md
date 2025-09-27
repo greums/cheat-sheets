@@ -8,7 +8,7 @@
 
 ## Prerequisite
 
-[Docker and Docker Compose](containerization/install-and-configure-docker.md) must be up and running before deploying Portainer. 
+[Docker and Docker Compose](http://keep.greums.xyz/#/containerization/install-and-configure-docker) must be up and running before deploying Portainer. 
 
 ## Run Portainer container
 

@@ -35,7 +35,7 @@ docker-compose version
 
 ## Configure remote access
 
-If you want to grant access from a remote [Portainer service](containerization/install-portainer-as-container.md), Docker daemon must be configured to listen on TCP port.
+If you want to grant access from a remote [Portainer service](http://keep.greums.xyz/#/containerization/install-portainer-as-container), Docker daemon must be configured to listen on TCP port.
 Create or update `/etc/docker/daemon.json`:
 ```bash
 sudo nano /etc/docker/daemon.json
