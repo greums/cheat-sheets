@@ -1,0 +1,27 @@
+name: SEO Updates
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  update-seo:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Update sitemap lastmod dates
+      run: |
+        # Update sitemap.xml with current date
+        current_date=$(date +"%Y-%m-%d")
+        sed -i "s/<lastmod>.*<\/lastmod>/<lastmod>$current_date<\/lastmod>/g" sitemap.xml
+        
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add sitemap.xml
+        git diff --staged --quiet || git commit -m "Auto-update sitemap lastmod dates"
+        git push

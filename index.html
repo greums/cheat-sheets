@@ -3,23 +3,96 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Cheat Sheets</title>
+  <title>Programming Cheat Sheets - Python, Docker, Linux & More | Developer Reference</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="description" content="Comprehensive programming cheat sheets for developers. Quick reference guides for Python, Docker, Linux, algorithmic concepts, and more. Boost your coding productivity with practical tips and tricks.">
+  <meta name="keywords" content="cheat sheets, programming, python, docker, linux, algorithms, developer, coding, reference, tutorial, guide">
+  <meta name="author" content="Greums">
+  <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://keep.greums.xyz/">
+  <meta property="og:title" content="Programming Cheat Sheets - Python, Docker, Linux & More | Developer Reference">
+  <meta property="og:description" content="Comprehensive programming cheat sheets for developers. Quick reference guides for Python, Docker, Linux, algorithmic concepts, and more.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="http://keep.greums.xyz/">
+  <meta property="twitter:title" content="Programming Cheat Sheets - Python, Docker, Linux & More | Developer Reference">
+  <meta property="twitter:description" content="Comprehensive programming cheat sheets for developers. Quick reference guides for Python, Docker, Linux, algorithmic concepts, and more.">
+  <meta property="twitter:image" content="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="http://keep.greums.xyz/">
+  
+  <!-- Theme color -->
+  <meta name="theme-color" content="#404040">
+  
+  <!-- CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Programming Cheat Sheets - Developer Reference Guide",
+    "description": "Comprehensive programming cheat sheets for developers. Quick reference guides for Python, Docker, Linux, algorithmic concepts, and more.",
+    "author": {
+      "@type": "Person",
+      "name": "Greums"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Greums Cheat Sheets"
+    },
+    "url": "http://keep.greums.xyz/",
+    "dateModified": "2025-09-27",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http://keep.greums.xyz/"
+    }
+  }
+  </script>
 </head>
 
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Cheat Sheets',
+      name: 'Programming Cheat Sheets',
       repo: 'https://github.com/greums/cheat-sheets',
       themeColor: '#404040',
       loadSidebar: true,
-      subMaxLevel: 2,
+      subMaxLevel: 3,
+      auto2top: true,
+      coverpage: false,
+      maxLevel: 4,
+      loadNavbar: false,
+      mergeNavbar: true,
+      executeScript: true,
+      noEmoji: false,
+      search: {
+        noData: 'No results!',
+        paths: 'auto',
+        placeholder: 'Search cheat sheets...',
+        pathNamespaces: /^(\/(zh-cn|ru))?(\/(v1|v2))?/
+      },
+      copyCode: {
+        buttonText: 'Copy to clipboard',
+        errorText: 'Error',
+        successText: 'Copied'
+      },
+      pagination: {
+        previousText: 'Previous',
+        nextText: 'Next',
+        crossChapter: true,
+        crossChapterText: true,
+      }
     }
   </script>
 </body>
@@ -36,6 +109,8 @@
   <script src="https://unpkg.com/docsify-copy-code"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="https://unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="https://unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TGLCCVZB2C"></script>
   <script>

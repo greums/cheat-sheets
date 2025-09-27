@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: http://keep.greums.xyz/sitemap.xml
+
+# Crawl-delay (optional - helps prevent overwhelming your server)
+Crawl-delay: 1
+
+# Disallow specific paths if needed (currently allowing all)
+# Disallow: /private/
+# Disallow: /temp/
